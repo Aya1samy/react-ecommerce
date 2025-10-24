@@ -1,0 +1,26 @@
+.main-container {
+    height: 65vh ;
+    background-image: url("/public/assets/main.jpg") ;
+    background-size: cover;
+    color: white;
+}
+
+.hero-container {
+    position: relative;
+    height: 100%;
+}
+
+.hero {
+    /* position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0,-50%);
+    color: white;
+    text-align: start; */
+    position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  color: white;
+  text-align: start;
+}
